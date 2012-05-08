@@ -32,7 +32,17 @@ Default settings are ok.
 Ubuntu settings
 ---------------
 Execute this:
-`bash <( curl -s https://raw.github.com/pierot/server-installer-lokal/master/make-headless.sh ) [-i '192.168.56.5']`
+`$ bash <( curl -s https://raw.github.com/pierot/server-installer-lokal/master/make-headless.sh ) [-i '192.168.56.5']`
 
 It will add the network interface for your local connection.
 You can now ssh into your Linux.
+
+Headless
+--------
+If you want to make your installation headless, you can use the following:
+```
+$ sudo apt-get install ssh openssh-server
+
+$ sudo mv /etc/init/gdm.conf /etc/init/gdm.conf.disabled
+$ sudo reboot
+```
