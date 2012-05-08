@@ -5,4 +5,5 @@ Remote Usage:       bash <( curl -s https://raw.github.com/pierot/server-install
 Options:
  
   -h                Show this message
+
   -i 'ip'           Set server ip address
