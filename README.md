@@ -16,13 +16,12 @@ IPv4 Network Mask: 255.255.255.0
 ````
 
 ### DHCP Server:
-`Server Address: 192.168.56.100`
-
-`Server Mask: 255.255.255.0`
-
-`Lower Address Bound: 192.168.56.101`
-
-`Upper Address Bound: 192.168.56.254`
+````
+Server Address: 192.168.56.100
+Server Mask: 255.255.255.0
+Lower Address Bound: 192.168.56.101
+Upper Address Bound: 192.168.56.254
+````
 
 Make sure you have your VirtualBox instance set up with two networks interfaces: 
 * NAT (1) 
